@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+
+.carousel-inner{
+    height: 300px;
+}
+
+.test{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.sticky-to-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+.titleAlea h1{
+    border-bottom: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.MainAlea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.MainAlea .card{
+    width: 23%;
+    margin: 5px;
+}
+.card-img-top{
+    height: 350px;
+}
